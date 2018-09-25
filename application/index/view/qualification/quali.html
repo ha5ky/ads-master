@@ -1,0 +1,67 @@
+<div id="content">
+  <div id="content-header">
+    <div id="breadcrumb"> 
+      <a href="index.html" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> 首页</a> 
+      <a href="#" class="tip-bottom">商家认证</a> 
+    </div>
+    <h1>认证</h1>
+  </div>
+  <div class="container-fluid">
+    <hr>
+    <div class="row-fluid">
+      <div class="span12">
+        <div class="widget-box">
+          <div class="widget-title"> <span class="icon"> <i class="icon-align-justify"></i> </span>
+            <h5>基本信息填写</h5>
+          </div>
+          <div class="widget-content nopadding">
+            <form action="index/seller/qualification" method="post" class="form-horizontal" enctype="multipart/form-data">
+              <div class="control-group">
+                <label class="control-label">商家名称：</label>
+                <div class="controls">
+                  <input type="text" name="seller" class="span11"/>
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label">地址：</label>
+                <div class="controls">
+                  <input type="text" name="addr" class="span11" />
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label">营业执照：</label>
+                <div class="controls">
+                  <input type="file" name="licensepic" />
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label">营业执照编号：</label>
+                <div class="controls">
+                  <input type="text" name="licensenum" class="span11" placeholder="license" />
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label">身份证：</label>
+                <div class="controls">
+                  <input type="file" name="idcardpic" />
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label">身份证号：</label>
+                <div class="controls">
+                  <input type="text" name="idcardnum" class="span11" placeholder="idcard" />
+                </div>
+              </div>
+              <div class="form-actions">
+                <button type="submit" class="btn btn-success">保存</button>
+                <button type="reset" class="btn btn-danger">重置</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+</div>
